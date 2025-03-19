@@ -1,9 +1,10 @@
+// tailwind.config.cjs
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
 	content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 	theme: {
-		extend: {},
+	  extend: {},
 	},
-	// eslint-disable-next-line no-undef
 	plugins: [require("daisyui")],
-};
+  };
+  
